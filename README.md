@@ -6,14 +6,14 @@ versions are managed independently.
 
 ## Plugins
 
-| Plugin | Description |
-| --- | --- |
-| [`conventional-commits`](plugins/conventional-commits/) | Write and review Conventional Commits messages. |
-| [`explain-artifacts`](plugins/explain-artifacts/) | Explain artifacts in a self-contained HTML page. |
-| [`github-workflows`](plugins/github-workflows/) | Create issues and pull requests and merge pull requests using repository conventions. |
-| [`review`](plugins/review/) | Coordinate independent reviews and format pull request review comments. |
-| [`technical-writing`](plugins/technical-writing/) | Apply technical writing principles to documentation and error messages. |
-| [`translation`](plugins/translation/) | Translation, proofreading, and multilingual reply workflows. |
+| Plugin                                                  | Description                                                                           |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [`conventional-commits`](plugins/conventional-commits/) | Write and review Conventional Commits messages.                                       |
+| [`explain-artifacts`](plugins/explain-artifacts/)       | Explain artifacts in a self-contained HTML page.                                      |
+| [`github-workflows`](plugins/github-workflows/)         | Create issues and pull requests and merge pull requests using repository conventions. |
+| [`review`](plugins/review/)                             | Coordinate independent reviews and format pull request review comments.               |
+| [`technical-writing`](plugins/technical-writing/)       | Apply technical writing principles to documentation and error messages.               |
+| [`translation`](plugins/translation/)                   | Translation, proofreading, and multilingual reply workflows.                          |
 
 ## Installation
 
