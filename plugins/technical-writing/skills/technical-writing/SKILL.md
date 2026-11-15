@@ -8,10 +8,9 @@ description:
 
 # Technical Writing Conductor
 
-Choose a specialist from the user's requested outcome, then read that
-specialist's `SKILL.md` and follow it for the rest of the task. Do not stop at
-routing or merely summarize the specialist instructions. If the user names a
-specialist directly, honor that choice.
+Choose a specialist based on the user's requested outcome. Read its `SKILL.md`
+and follow that guidance to complete the task. If the user names a specialist
+directly, choose it.
 
 ## Routing
 

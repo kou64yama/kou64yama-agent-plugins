@@ -23,8 +23,8 @@ clear while protecting diagnostic and sensitive information.
 4. Be concise, direct, and calm. Avoid blame, jokes that obscure meaning, double
    negatives, unexplained codes, and inconsistent names for the same concept.
 5. Match detail to the audience and format the message for scanning. Keep it
-   near the problem, provide an accessible announcement for dynamic errors, and
-   link to further help when needed.
+   near the problem, ensure dynamically displayed errors are announced to
+   assistive technologies, and link to further help when needed.
 6. Check edge cases: unavailable services, permission failures, malformed or
    empty input, and cases where the system cannot safely disclose details. Never
    expose secrets, personal data, stack traces, or internal identifiers in

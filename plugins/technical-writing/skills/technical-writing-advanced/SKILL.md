@@ -25,7 +25,7 @@ Use this skill for substantial documents and intermediate writing problems.
 5. Make sample code runnable or clearly label it as a fragment. State
    prerequisites, versions when relevant, setup, expected output, and cleanup.
    Check that names and snippets agree with surrounding instructions.
-6. When using an LLM, provide bounded context and explicit constraints, verify
+6. When using an LLM, provide relevant context and explicit constraints, verify
    generated claims and code against authoritative sources, and review for
    omissions, privacy, security, and consistency. The author remains responsible
    for the final content.
