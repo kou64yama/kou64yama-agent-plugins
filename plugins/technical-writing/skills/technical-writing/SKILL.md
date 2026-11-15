@@ -25,7 +25,6 @@ Explain what happened, the known cause, and a concrete recovery action when avai
 
 Adapt these principles to the document and language; English-specific grammar advice does not automatically apply to other languages.
 
-
 ## Sources
 
 - [Google Technical Writing One](https://developers.google.com/tech-writing/one)

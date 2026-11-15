@@ -1,0 +1,19 @@
+{
+  "name": "kou64yama-agent-plugins",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "lint": "prettier --check ."
+  },
+  "lint-staged": {
+    "*.{md,json,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.10.1"
+  }
+}
