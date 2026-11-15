@@ -1,6 +1,9 @@
 ---
 name: translate
-description: Coordinate translation assistance when the user has not chosen a standalone skill, selecting native-language translation, outgoing translation, explicit proofreading, or an ongoing reply exchange while retaining context.
+description:
+  Coordinate translation assistance when the user has not chosen a standalone
+  skill, selecting native-language translation, outgoing translation, explicit
+  proofreading, or an ongoing reply exchange while retaining context.
 ---
 
 # Translate
@@ -17,21 +20,21 @@ translation direction or producing native-language explanations. Never infer
 native language solely from the input language.
 
 Use the non-native language specified for the current task or established in
-conversation. For outgoing translations without either, default to English;
-if English is the native language, ask for the target language instead.
-Incoming translations use the detected source language. For replies, establish
-the other participant's language from the received message or explicit context;
-ask if it is unavailable or ambiguous rather than defaulting it to English.
+conversation. For outgoing translations without either, default to English; if
+English is the native language, ask for the target language instead. Incoming
+translations use the detected source language. For replies, establish the other
+participant's language from the received message or explicit context; ask if it
+is unavailable or ambiguous rather than defaulting it to English.
 
 Render labels, language names, ratings, and explanations in the native language.
 Use the selected skill's output template, replacing placeholders with actual
 content and localizing its labels. Preserve meaning and the requested style.
 
 Retain relevant language, style, original message, and conversation context for
-follow-ups. Language corrections, translation questions, and style changes
-apply to the current task unless the user requests a different operation.
-Ask only for missing information when mixed-language input or unclear intent
-prevents completing the task. Each standalone skill works without `translate`.
+follow-ups. Language corrections, translation questions, and style changes apply
+to the current task unless the user requests a different operation. Ask only for
+missing information when mixed-language input or unclear intent prevents
+completing the task. Each standalone skill works without `translate`.
 
 ## Select the operation
 

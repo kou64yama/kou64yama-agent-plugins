@@ -7,9 +7,9 @@ welcome.
 ## Reporting issues
 
 Search existing issues and pull requests before opening an issue. For a bug
-report, include the steps to reproduce it, the expected and actual behavior,
-and the relevant client and plugin versions. For a feature request, describe
-the use case and the desired behavior.
+report, include the steps to reproduce it, the expected and actual behavior, and
+the relevant client and plugin versions. For a feature request, describe the use
+case and the desired behavior.
 
 For a substantial change or a new plugin, consider opening an issue first to
 discuss the proposal.
@@ -42,9 +42,9 @@ When adding or changing a skill or plugin:
 - For a new plugin, add a root `plugin.json`, register its repository-relative
   path in `.agents/plugins/marketplace.json`, and update the README's plugin
   table. Update the table when adding or removing skills or changing their
-  `short_description`: use one row per skill, link to the plugin and skill,
-  copy the `short_description` into the Description column, and sort by plugin
-  name and then skill name in ascending order.
+  `short_description`: use one row per skill, link to the plugin and skill, copy
+  the `short_description` into the Description column, and sort by plugin name
+  and then skill name in ascending order.
 - Plugin versions are managed independently. Increment the affected plugin's
   version when releasing changes.
 - Follow [`.editorconfig`](.editorconfig) for whitespace and file formatting.

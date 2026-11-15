@@ -1,6 +1,10 @@
 ---
 name: conventional-commits
-description: Write, review, explain, or repair commit messages using the Conventional Commits 1.0.0 specification. Use when Codex needs to draft commit messages, validate commit history, choose commit types/scopes, describe breaking changes, or make commits that should follow Conventional Commits.
+description:
+  Write, review, explain, or repair commit messages using the Conventional
+  Commits 1.0.0 specification. Use when Codex needs to draft commit messages,
+  validate commit history, choose commit types/scopes, describe breaking
+  changes, or make commits that should follow Conventional Commits.
 ---
 
 # Conventional Commits

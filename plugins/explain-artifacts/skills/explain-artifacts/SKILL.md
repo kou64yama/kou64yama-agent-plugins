@@ -1,6 +1,9 @@
 ---
 name: explain-artifacts
-description: Explain existing artifacts such as code, changes, documents, and designs in a readable, evidence-based, single-file HTML page. Use when the user wants an HTML explanation of artifacts, with optional SVG diagrams.
+description:
+  Explain existing artifacts such as code, changes, documents, and designs in a
+  readable, evidence-based, single-file HTML page. Use when the user wants an
+  HTML explanation of artifacts, with optional SVG diagrams.
 ---
 
 # Explain Artifacts
@@ -40,16 +43,16 @@ path and line number are sufficient.
 Add inline SVG only when it clarifies a verified structure, relationship, or
 flow. Write a caption stating the point of the diagram, then draw only the
 details needed to support it. Give each SVG an accessible title and description,
-unique IDs for their references, and a responsive `viewBox`. Keep the explanation
-understandable without the diagram.
+unique IDs for their references, and a responsive `viewBox`. Keep the
+explanation understandable without the diagram.
 
 ## Build the single HTML file
 
 Read and adapt [assets/explanation.html](assets/explanation.html). It supplies a
 responsive document layout, embedded CSS, and styles for prose, code, tables,
 sources, and optional figures. Replace every `{{...}}` placeholder, set `lang`
-to the explanation language, and remove unused sample sections and comments.
-The template is a starting layout, not a requirement to retain every section.
+to the explanation language, and remove unused sample sections and comments. The
+template is a starting layout, not a requirement to retain every section.
 
 Keep all rendering resources inside the HTML: inline CSS and SVG, and embedded
 images if necessary. Do not require external fonts, stylesheets, scripts, image
@@ -75,8 +78,8 @@ readability, overflow, and diagram legibility. If it is unavailable, check the
 file structurally and report that visual verification was not performed.
 
 Open the generated file with an available browser tool or the platform's file
-opener (for example, `open` on macOS or `xdg-open` on Linux). Opening the file is
-not itself proof of visual verification. If opening is unsupported or fails,
+opener (for example, `open` on macOS or `xdg-open` on Linux). Opening the file
+is not itself proof of visual verification. If opening is unsupported or fails,
 still deliver the saved file; do not keep retrying or introduce hosting solely
 to display it.
 

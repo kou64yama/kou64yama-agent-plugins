@@ -1,4 +1,6 @@
 interface:
-  display_name: "Proofread Non-Native"
-  short_description: "Review naturalness, consistency, and tone"
-  default_prompt: "Use $proofread-non-native to evaluate and improve this text while explaining the revisions in my native language."
+  display_name: 'Proofread Non-Native'
+  short_description: 'Review naturalness, consistency, and tone'
+  default_prompt:
+    'Use $proofread-non-native to evaluate and improve this text while
+    explaining the revisions in my native language.'

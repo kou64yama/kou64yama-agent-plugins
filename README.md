@@ -71,9 +71,9 @@ For a new plugin, add a manifest and register its repository-root-relative path
 in the marketplace. Update the table above and increment the affected plugin's
 version when releasing changes.
 
-When changing a skill, check its trigger, workflow, metadata, and relative links.
-After changing a plugin, refresh its installed copy and restart the client before
-testing discovery and behavior.
+When changing a skill, check its trigger, workflow, metadata, and relative
+links. After changing a plugin, refresh its installed copy and restart the
+client before testing discovery and behavior.
 
 ## License
 
