@@ -1,6 +1,6 @@
 interface:
   display_name: 'Technical Writing'
-  short_description: 'Improve technical documentation and explanations'
+  short_description: 'Route writing work to the right specialist'
   default_prompt:
-    'Use $technical-writing to improve this technical documentation for its
-    intended audience.'
+    'Use $technical-writing to select the right technical writing guidance for
+    this request and carry out the task.'

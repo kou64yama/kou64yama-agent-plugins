@@ -1,60 +1,39 @@
 ---
 name: technical-writing
 description:
-  Apply technical writing principles when creating or editing technical
-  documentation, explanations, and error messages for a specific audience.
+  Route technical writing requests to the relevant specialist skill. Use for
+  documentation, editing, accessibility, and user-facing error messages when the
+  appropriate writing focus is not already clear.
 ---
 
-# Technical Writing
+# Technical Writing Conductor
 
-Write for the reader's goal, knowledge, and vocabulary. Establish the audience,
-purpose, and intended outcome from the request and available context. State
-consequential assumptions and verify technical claims against available
-evidence; do not invent facts.
+Choose a specialist from the user's requested outcome, then read that
+specialist's `SKILL.md` and follow it for the rest of the task. Do not stop at
+routing or merely summarize the specialist instructions. If the user names a
+specialist directly, honor that choice.
 
-## Structure and language
+## Routing
 
-- Introduce the document's scope and important points early. Organize longer
-  material around reader tasks, with descriptive headings, prerequisites,
-  navigation, and progressive disclosure where useful.
-- Define unfamiliar terms and abbreviations on first use, use terminology
-  consistently, and make pronoun references clear. Prefer concrete verbs and
-  concise sentences, while adapting grammar and voice to the language and
-  context.
-- Give each paragraph a clear subject. Use numbered lists for ordered steps and
-  bullets for unordered items; keep list items parallel and explain tables when
-  their purpose or reading is not apparent.
-- Make examples accurate, understandable, and reusable. For code, provide
-  relevant dependencies and execution instructions; do not sacrifice correctness
-  or safety for brevity.
-- Use diagrams when they clarify an idea. Focus each diagram on its purpose,
-  guide attention with a caption, and explain important content in the
-  surrounding text.
+- General technical documentation, explanations, sentences, paragraphs,
+  terminology, Markdown, or introductory writing guidance:
+  `technical-writing-fundamentals` (default).
+- Editing or improving a long document, planning document structure, diagrams,
+  code samples, or using LLMs in a writing workflow:
+  `technical-writing-advanced`.
+- Alt text, inclusive design or language, contrast, visual cues, or an
+  accessibility review: `technical-writing-accessibility`.
+- Designing, reviewing, or rewriting user-facing error messages:
+  `technical-writing-error-messages`.
 
-## Accessibility
+When a request spans multiple areas, load the smallest set of relevant
+specialist skills. For ordinary writing tasks, load fundamentals and add a
+specialist only when its focus materially affects the result. Preserve the
+user's intended meaning, audience, language, and requested format.
 
-Use a meaningful heading hierarchy and descriptive link text. Give informative
-images concise alternative text appropriate to their context; use empty alt text
-for decorative images, and explain complex diagrams in the text. Do not rely on
-color alone to convey meaning. Use inclusive language and respect the
-terminology preferred by the people concerned. Check applicable accessibility
-requirements for the medium.
+## Specialist skills
 
-## Error messages
-
-Explain what happened, the known cause, and a concrete recovery action when
-available. Identify relevant invalid input and requirements, and include a valid
-example when helpful. Use concise, consistent language suited to the audience
-without blaming the user. Put the message near the problem and link to details
-when needed. Separate user-facing guidance from diagnostic details and avoid
-exposing sensitive information.
-
-Adapt these principles to the document and language; English-specific grammar
-advice does not automatically apply to other languages.
-
-## Sources
-
-- [Google Technical Writing One](https://developers.google.com/tech-writing/one)
-- [Google Technical Writing Two](https://developers.google.com/tech-writing/two)
-- [Tech Writing for Accessibility](https://developers.google.com/tech-writing/accessibility/self-study)
-- [Writing Helpful Error Messages](https://developers.google.com/tech-writing/error-messages)
+- [Fundamentals](../technical-writing-fundamentals/SKILL.md)
+- [Advanced](../technical-writing-advanced/SKILL.md)
+- [Accessibility](../technical-writing-accessibility/SKILL.md)
+- [Error messages](../technical-writing-error-messages/SKILL.md)
