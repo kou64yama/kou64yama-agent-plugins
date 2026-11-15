@@ -1,6 +1,9 @@
 ---
 name: proofread-non-native
-description: Review and improve the user's non-native-language text when proofreading or correction is explicitly requested. Keep the revised text in its original language and explain evaluations in the user's native language.
+description:
+  Review and improve the user's non-native-language text when proofreading or
+  correction is explicitly requested. Keep the revised text in its original
+  language and explain evaluations in the user's native language.
 ---
 
 # Proofread Non-Native
@@ -13,21 +16,21 @@ translation direction or producing native-language explanations. Never infer
 native language solely from the input language.
 
 Use the non-native language specified for the current task or established in
-conversation. For outgoing translations without either, default to English;
-if English is the native language, ask for the target language instead.
-Incoming translations use the detected source language. For replies, establish
-the other participant's language from the received message or explicit context;
-ask if it is unavailable or ambiguous rather than defaulting it to English.
+conversation. For outgoing translations without either, default to English; if
+English is the native language, ask for the target language instead. Incoming
+translations use the detected source language. For replies, establish the other
+participant's language from the received message or explicit context; ask if it
+is unavailable or ambiguous rather than defaulting it to English.
 
 Render labels, language names, ratings, and explanations in the native language.
 The output templates below describe structure; replace placeholders with actual
 content and localize their labels. Preserve meaning and the requested style.
 
 Retain relevant language, style, original message, and conversation context for
-follow-ups. Language corrections, translation questions, and style changes
-apply to the current task unless the user requests a different operation.
-Ask only for missing information when mixed-language input or unclear intent
-prevents completing the task. Each standalone skill works without `translate`.
+follow-ups. Language corrections, translation questions, and style changes apply
+to the current task unless the user requests a different operation. Ask only for
+missing information when mixed-language input or unclear intent prevents
+completing the task. Each standalone skill works without `translate`.
 
 Proofread the user's non-native-language text. Keep the revised text in its
 original language. Evaluate the original text and explain revisions in the
@@ -39,8 +42,8 @@ meaning and account for the requested audience and style.
 Use these scales, translating their labels into the native language:
 
 - Naturalness, from a native speaker's perspective, including awkward phrasing
-  and overly literal wording: Needs improvement; Almost there; Acceptable;
-  Good; Excellent.
+  and overly literal wording: Needs improvement; Almost there; Acceptable; Good;
+  Excellent.
 - Consistency of register, terminology, tense, and spelling: Inconsistent;
   Acceptable; Consistent.
 - Tone: Possibly too casual; Casual; Neutral; Formal; Possibly too formal.
