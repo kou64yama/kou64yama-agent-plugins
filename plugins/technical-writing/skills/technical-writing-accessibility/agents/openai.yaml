@@ -1,0 +1,7 @@
+interface:
+  display_name: 'Accessible Technical Writing'
+  short_description:
+    'Review documentation for accessibility and inclusive design'
+  default_prompt:
+    'Use $technical-writing-accessibility to help with this technical writing
+    task.'

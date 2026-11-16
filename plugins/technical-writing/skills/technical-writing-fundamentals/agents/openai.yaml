@@ -1,0 +1,7 @@
+interface:
+  display_name: 'Technical Writing Fundamentals'
+  short_description:
+    'Write or revise clear technical documentation and explanations'
+  default_prompt:
+    'Use $technical-writing-fundamentals to help with this technical writing
+    task.'

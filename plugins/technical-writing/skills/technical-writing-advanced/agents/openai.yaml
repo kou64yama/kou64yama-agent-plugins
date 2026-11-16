@@ -1,0 +1,6 @@
+interface:
+  display_name: 'Advanced Technical Writing'
+  short_description:
+    'Plan and edit complex technical documents, code samples, and illustrations'
+  default_prompt:
+    'Use $technical-writing-advanced to help with this technical writing task.'

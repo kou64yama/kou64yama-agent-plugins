@@ -1,0 +1,6 @@
+interface:
+  display_name: 'Helpful Error Messages'
+  short_description: 'Write clear user-facing errors that help people recover'
+  default_prompt:
+    'Use $technical-writing-error-messages to help with this technical writing
+    task.'
