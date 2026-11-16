@@ -21,27 +21,27 @@ integrate and practice those topics. That said, even if students never take the
 instructor-led session, the pre-class work by itself provides significant
 educational value.
 
-| Title                 | Summary                                         | Pre-class time | Instructor-led time | Link to pre-class work                     |
-| --------------------- | ----------------------------------------------- | -------------- | ------------------- | ------------------------------------------ |
-| Technical Writing One | Learn the critical basics of technical writing. | 2 hours        | 2.5 - 3.0 hours     | [Pre-class](./technical-writing-one-01.md) |
-| Technical Writing Two | Learn intermediate topics in technical writing. | 1.5 hours      | 2.5 - 3.0 hours     | [Pre-class](./technical-writing-two-01.md) |
+| Title                 | Summary                                         | Pre-class time | Instructor-led time | Link to pre-class work                                                               |
+| --------------------- | ----------------------------------------------- | -------------- | ------------------- | ------------------------------------------------------------------------------------ |
+| Technical Writing One | Learn the critical basics of technical writing. | 2 hours        | 2.5 - 3.0 hours     | [Pre-class](./technical-writing-one-01.md)                                           |
+| Technical Writing Two | Learn intermediate topics in technical writing. | 1.5 hours      | 2.5 - 3.0 hours     | [Pre-class](../../technical-writing-advanced/references/technical-writing-two-01.md) |
 
 ## Self-study
 
 The following course is self-study only:
 
-| Title                          | Summary                                                | Time      | Link to course                                     |
-| ------------------------------ | ------------------------------------------------------ | --------- | -------------------------------------------------- |
-| Writing Helpful Error Messages | Learn to write clearer, more effective error messages. | 1.5 hours | [Course](./technical-writing-error-messages-01.md) |
+| Title                          | Summary                                                | Time      | Link to course                                                                                     |
+| ------------------------------ | ------------------------------------------------------ | --------- | -------------------------------------------------------------------------------------------------- |
+| Writing Helpful Error Messages | Learn to write clearer, more effective error messages. | 1.5 hours | [Course](../../technical-writing-error-messages/references/technical-writing-error-messages-01.md) |
 
 ## Self-study _or_ instructor-led
 
 The following course is available in both self-study and instructor-led formats.
 Both formats cover similar (though, not quite identical) topics:
 
-| Title                                         | Summary                                                         | Time      | Link to self-study                                           | Link to instructor-led                                                |
-| --------------------------------------------- | --------------------------------------------------------------- | --------- | ------------------------------------------------------------ | --------------------------------------------------------------------- |
-| Tech Writing for Accessibility instructor-led | Develop skills for making documentation more accessible to all. | 1.5 hours | [Course](./technical-writing-accessibility-self-study-01.md) | [Course info](./technical-writing-accessibility-instructor-led-01.md) |
+| Title                                         | Summary                                                         | Time      | Link to self-study                                                                                          | Link to instructor-led                                                                                               |
+| --------------------------------------------- | --------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Tech Writing for Accessibility instructor-led | Develop skills for making documentation more accessible to all. | 1.5 hours | [Course](../../technical-writing-accessibility/references/technical-writing-accessibility-self-study-01.md) | [Course info](../../technical-writing-accessibility/references/technical-writing-accessibility-instructor-led-01.md) |
 
 ## Run your own instructor-led classes
 

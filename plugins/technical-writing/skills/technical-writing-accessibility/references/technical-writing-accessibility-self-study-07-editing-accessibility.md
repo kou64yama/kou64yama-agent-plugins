@@ -155,7 +155,7 @@ information._ | - **Edit**: Request a review or peer edit from someone who is
 familiar with your subject matter. |
 
 > > [!NOTE] **Note:** Learn more about creating lists in
-> > [Tech Writing One](./technical-writing-one-07-lists-and-tables.md).
+> > [Tech Writing One](../../technical-writing-fundamentals/references/technical-writing-one-07-lists-and-tables.md).
 
 If you continue breaking down the existing text into possible bulleted items,
 you can organize and order the items logically, which will make the information

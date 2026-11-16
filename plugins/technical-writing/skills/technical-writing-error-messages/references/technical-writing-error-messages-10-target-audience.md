@@ -12,7 +12,7 @@ Tailor the error message to the target audience. That is:
 - Be mindful of what the target audience knows and doesn't know.
 
 Beware of the
-[curse of knowledge](./technical-writing-one-09-audience.md#curse_of_knowledge)
+[curse of knowledge](../../technical-writing-fundamentals/references/technical-writing-one-09-audience.md#curse_of_knowledge)
 when writing error messages. A term familiar to you might not be familiar to
 your target audience. For example, the following error message contains
 terminology appropriate for a target audience of ML experts. If the target

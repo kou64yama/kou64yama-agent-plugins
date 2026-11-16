@@ -22,7 +22,8 @@ and then make that strategy part of your writing routine.
 > [!NOTE] **Note:** The tips in this unit build on the basic writing and editing
 > skills from Technical Writing One. This unit includes a summary of useful
 > editing techniques from that course. For a more detailed refresher, visit the
-> [self-study units](./technical-writing-one-01.md) from Technical Writing One.
+> [self-study units](../../technical-writing-fundamentals/references/technical-writing-one-01.md)
+> from Technical Writing One.
 
 ## Adopt a style guide
 
@@ -43,10 +44,11 @@ documenting computer interfaces. You might prefer to start by adopting the
 Some of the guidelines listed in the highlights are covered in Technical Writing
 One. You might recall some of the following techniques:
 
-- Use [active voice](./technical-writing-one-04-active-voice.md) to make clear
-  who's performing the action.
+- Use
+  [active voice](../../technical-writing-fundamentals/references/technical-writing-one-04-active-voice.md)
+  to make clear who's performing the action.
 - Format sequential steps as
-  [numbered lists](./technical-writing-one-07-lists-and-tables.md).
+  [numbered lists](../../technical-writing-fundamentals/references/technical-writing-one-07-lists-and-tables.md).
 - Format most other lists as bulleted lists.
 
 The highlights introduce many other techniques that can be useful when writing
@@ -85,7 +87,9 @@ Note that relying too heavily on a persona (or two) can result in a document
 that is too narrowly focused to be useful to the majority of your readers.
 
 For a refresher and more information on this topic from Technical Writing One,
-see the [Audience](./technical-writing-one-09-audience.md) self-study unit.
+see the
+[Audience](../../technical-writing-fundamentals/references/technical-writing-one-09-audience.md)
+self-study unit.
 
 ## Read it out loud
 

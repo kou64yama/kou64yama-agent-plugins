@@ -194,8 +194,10 @@ still aren't very good, consider the following questions:
 - Are your prompts sufficiently specific? Are you asking for exactly what you
   want?
 - Is your prompt clear? Would your prompt conform to the technical writing
-  lessons in [Technical Writing One](./technical-writing-one-01.md)? If you gave
-  the same prompt to a human, would that person know what you are requesting?
+  lessons in
+  [Technical Writing One](../../technical-writing-fundamentals/references/technical-writing-one-01.md)?
+  If you gave the same prompt to a human, would that person know what you are
+  requesting?
 
 Sometimes, the perfect is the enemy of the good. If a response is very good, but
 not quite perfect, it is tempting to continue refining the prompt. However, it

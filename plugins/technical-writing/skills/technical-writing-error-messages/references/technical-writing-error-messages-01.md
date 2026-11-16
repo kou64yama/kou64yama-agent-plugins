@@ -23,7 +23,8 @@ We've aimed this course at the following audiences:
 - Program managers
 - Technical writers
 
-We recommend taking [Technical Writing One](./technical-writing-overview.md)
+We recommend taking
+[Technical Writing One](../../technical-writing-fundamentals/references/technical-writing-overview.md)
 before taking this error messages course. After all, good error messages are
 just another form of good technical writing. If you'd prefer to skip Technical
 Writing One for now, that's okay---you can still benefit from this error
@@ -54,7 +55,7 @@ Conversely, _good_ error messages provide the following benefits:
 - Deliver the best user experience.
 - Are actionable.
 - Are universally accessible. (To learn more, take
-  [Tech Writing for Accessibility.](./technical-writing-accessibility-instructor-led-01.md))
+  [Tech Writing for Accessibility.](../../technical-writing-accessibility/references/technical-writing-accessibility-instructor-led-01.md))
 - Enable users to help themselves.
 - Reduce the support workload.
 - Enable faster resolution of issues.

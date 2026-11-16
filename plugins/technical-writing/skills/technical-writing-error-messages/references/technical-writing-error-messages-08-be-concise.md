@@ -8,7 +8,7 @@ source: https://developers.google.com/tech-writing/error-messages/be-concise.md.
 
 Write concise error messages. Emphasize what's important. Cut unnecessary text.
 See the
-[Short sentences unit of Tech Writing One](./technical-writing-one-06-short-sentences.md)
+[Short sentences unit of Tech Writing One](../../technical-writing-fundamentals/references/technical-writing-one-06-short-sentences.md)
 for tips on reducing sentence length.
 
 Not recommended
@@ -36,7 +36,7 @@ Recommended
 ---
 
 Converting from
-[passive voice to active voice](./technical-writing-one-04-active-voice.md)
+[passive voice to active voice](../../technical-writing-fundamentals/references/technical-writing-one-04-active-voice.md)
 often makes sentences conciser and easier to understand:
 
 Not recommended

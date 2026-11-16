@@ -13,9 +13,9 @@ helps technical people advance their technical communication skills.
 ## Target audience
 
 We've aimed this course at people who have completed
-[Technical Writing One](./technical-writing-one-01.md). If you've never taken
-any technical writing training, we recommend completing _Technical Writing One_
-before taking this class.
+[Technical Writing One](../../technical-writing-fundamentals/references/technical-writing-one-01.md).
+If you've never taken any technical writing training, we recommend completing
+_Technical Writing One_ before taking this class.
 
 ## Learning objectives
 
