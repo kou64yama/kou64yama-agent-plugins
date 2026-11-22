@@ -16,3 +16,12 @@ jobs:
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
       - run: bun run lint
+
+  check-marketplaces:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install apm
+        run: curl -sSL https://aka.ms/apm-unix | sh
+      - name: Check marketplaces are up-to-date
+        run: apm pack --check-clean

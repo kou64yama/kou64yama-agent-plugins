@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
-    "lint": "prettier --check ."
+    "lint": "prettier --check .",
+    "build:marketplaces": "apm pack",
+    "check:marketplaces": "apm pack --check-clean"
   },
   "lint-staged": {
     "*.{md,json,yaml,yml}": [
