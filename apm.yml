@@ -1,0 +1,58 @@
+name: kou64yama-agent-plugins
+version: 1.0.0
+description:
+  Reusable agent skills distributed as purpose-specific portable Agent Plugins.
+license: MIT
+
+marketplace:
+  name: kou64yama-agent-plugins
+  owner:
+    name: kou64yama
+    url: https://github.com/kou64yama
+
+  outputs:
+    claude: {}
+    codex: {}
+    copilot: {}
+
+  packages:
+    - name: conventional-commits
+      source: ./plugins/conventional-commits
+      description: Write and review Conventional Commits messages.
+      version: 1.0.0
+      category: Productivity
+
+    - name: explain-artifacts
+      source: ./plugins/explain-artifacts
+      description: Explain artifacts in a self-contained HTML page.
+      version: 1.0.0
+      category: Productivity
+
+    - name: github-workflows
+      source: ./plugins/github-workflows
+      description:
+        Create issues and pull requests and merge pull requests using repository
+        conventions.
+      version: 1.0.0
+      category: Productivity
+
+    - name: review
+      source: ./plugins/review
+      description:
+        Coordinate independent reviews and format pull request review comments.
+      version: 1.0.0
+      category: Productivity
+
+    - name: technical-writing
+      source: ./plugins/technical-writing
+      description:
+        Write clear technical documentation, improve complex content, address
+        accessibility, and create helpful error messages.
+      version: 2.1.0
+      category: Productivity
+
+    - name: translation
+      source: ./plugins/translation
+      description: Translation, proofreading, and multilingual reply workflows.
+      version: 1.0.0
+      category: Productivity
