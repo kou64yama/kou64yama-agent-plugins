@@ -1,0 +1,38 @@
+---
+description: Create GitHub issues and pull requests, and merge pull requests using repository conventions. Activate when the user asks to open an issue, create or draft a PR, or merge a pull request.
+globs:
+alwaysApply: false
+---
+
+# GitHub Workflows
+
+This plugin provides three skills for common GitHub operations. Load the
+relevant skill for the requested task.
+
+## create-issue
+
+Identify the target repository and collect the issue title, body, labels, and
+assignees from the request and conversation. Follow repository contribution
+guidelines and issue templates retrieved from the GitHub API. Draft when asked
+for advice; create the issue when creation is authorized.
+
+## create-pull-request
+
+Identify the target repository, base, and head. Inspect the complete
+base-to-head commit log and diff to understand the change and write an accurate
+title and description. Include relevant verification and disclose checks not
+run.
+
+Retrieve contribution guidelines and PR templates from the target repository's
+GitHub API. Select the applicable template; if multiple choices are plausible
+and intent does not resolve the choice, ask the user. Follow its structure and
+applicable repository instructions without inventing facts.
+
+Draft when asked for a draft or advice; create the PR when creation is
+authorized. Do not split the PR or rename the branch as part of this workflow.
+
+## merge-pull-request
+
+Identify the target repository and PR. Check the merge requirements (CI status,
+required reviews, branch protection) before merging. Use the merge method
+specified by the user or the repository default. Report the outcome.

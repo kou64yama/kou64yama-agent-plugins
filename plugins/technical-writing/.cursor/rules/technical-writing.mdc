@@ -1,0 +1,36 @@
+---
+description: Write clear technical documentation, improve complex content, address accessibility, and create helpful error messages. Activate when the user asks to write, edit, or review technical documentation, improve prose clarity, check accessibility of written content, or design user-facing error messages.
+globs:
+alwaysApply: false
+---
+
+# Technical Writing
+
+Route the request to the appropriate specialist based on the user's outcome.
+
+## Routing
+
+- General technical documentation, explanations, sentences, paragraphs,
+  terminology, Markdown, or introductory writing guidance:
+  → **technical-writing-fundamentals** (default)
+- Editing or improving a long document, planning document structure, diagrams,
+  code samples, or using LLMs in a writing workflow:
+  → **technical-writing-advanced**
+- Alt text, inclusive design or language, contrast, visual cues, or an
+  accessibility review:
+  → **technical-writing-accessibility**
+- Designing, reviewing, or rewriting user-facing error messages:
+  → **technical-writing-error-messages**
+
+When a request spans multiple areas, load the smallest set of relevant
+specialist skills.
+
+## Shared principles
+
+- Preserve the user's intended meaning, audience, language, and requested
+  format.
+- Use active voice, short sentences, and plain language unless the audience or
+  style guide requires otherwise.
+- Define unfamiliar terms on first use.
+- Use lists and tables where they improve scannability, not for decoration.
+- Distinguish documented intent from observed behavior when both are present.

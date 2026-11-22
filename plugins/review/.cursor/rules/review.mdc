@@ -1,0 +1,42 @@
+---
+description: Coordinate independent multi-agent reviews and format pull request review comments. Activate when the user asks for a code review, document review, or PR review comment formatting.
+globs:
+alwaysApply: false
+---
+
+# Review
+
+This plugin provides two skills for review workflows.
+
+## multi-agent-review
+
+Orchestrate a structured review using independent specialist agents. Use when
+the review target benefits from multiple dimensions or specialist perspectives;
+do not use for a simple single-perspective review.
+
+**Frame the review** — establish context, scope, review dimensions (correctness,
+security, performance, maintainability, accessibility, operational safety), and
+review policy before dispatching agents.
+
+**Dispatch independent reviewers** — assign each reviewer an explicit subset of
+the scope and one or more dimensions. Use independent agents in parallel. Give
+every reviewer the same context, scope, dimensions, review policy, and the
+reviewer-result schema.
+
+**Triage and consolidate** — drop findings with confidence below 80, group by
+underlying problem, merge findings that describe the same issue, and retain
+unresolved conflicts as conflict sets.
+
+**Validate** — send every finding to a validation agent that did not author it.
+Only present verified findings in the final result.
+
+**Present** — start with scope, dimensions, and outcome. Show findings in
+priority order (verified first, then needs-attention, then unresolved conflicts).
+Assign user-facing IDs (`R-01`, `R-02`, …) after consolidation.
+
+## pr-review-comments
+
+Format review findings as GitHub pull request review comments. Place each
+comment at the precise file path and line range it addresses. Use the diff
+context to anchor comments accurately. Group related comments when they address
+the same underlying issue.
