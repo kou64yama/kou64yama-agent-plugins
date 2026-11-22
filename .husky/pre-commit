@@ -1,1 +1,7 @@
 bun run lint-staged
+
+# If apm.yml is staged, regenerate marketplace files and re-stage them
+if git diff --cached --name-only | grep -q "^apm\.yml$"; then
+  apm pack
+  git add .agents/plugins/marketplace.json .claude-plugin/marketplace.json .github/plugin/marketplace.json
+fi

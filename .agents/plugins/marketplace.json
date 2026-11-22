@@ -5,46 +5,22 @@
   },
   "plugins": [
     {
-      "name": "translation",
-      "source": {
-        "source": "local",
-        "path": "./plugins/translation"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "technical-writing",
-      "source": {
-        "source": "local",
-        "path": "./plugins/technical-writing"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "review",
-      "source": {
-        "source": "local",
-        "path": "./plugins/review"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
       "name": "conventional-commits",
       "source": {
         "source": "local",
         "path": "./plugins/conventional-commits"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "explain-artifacts",
+      "source": {
+        "source": "local",
+        "path": "./plugins/explain-artifacts"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -65,10 +41,34 @@
       "category": "Productivity"
     },
     {
-      "name": "explain-artifacts",
+      "name": "review",
       "source": {
         "source": "local",
-        "path": "./plugins/explain-artifacts"
+        "path": "./plugins/review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "technical-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/technical-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "translation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/translation"
       },
       "policy": {
         "installation": "AVAILABLE",

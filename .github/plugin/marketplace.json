@@ -1,0 +1,48 @@
+{
+  "name": "kou64yama-agent-plugins",
+  "owner": {
+    "name": "kou64yama"
+  },
+  "metadata": {
+    "description": "Reusable agent skills distributed as purpose-specific portable Agent Plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "conventional-commits",
+      "description": "Write and review Conventional Commits messages.",
+      "version": "1.0.0",
+      "source": "./plugins/conventional-commits"
+    },
+    {
+      "name": "explain-artifacts",
+      "description": "Explain artifacts in a self-contained HTML page.",
+      "version": "1.0.0",
+      "source": "./plugins/explain-artifacts"
+    },
+    {
+      "name": "github-workflows",
+      "description": "Create issues and pull requests and merge pull requests using repository conventions.",
+      "version": "1.0.0",
+      "source": "./plugins/github-workflows"
+    },
+    {
+      "name": "review",
+      "description": "Coordinate independent reviews and format pull request review comments.",
+      "version": "1.0.0",
+      "source": "./plugins/review"
+    },
+    {
+      "name": "technical-writing",
+      "description": "Write clear technical documentation, improve complex content, address accessibility, and create helpful error messages.",
+      "version": "2.1.0",
+      "source": "./plugins/technical-writing"
+    },
+    {
+      "name": "translation",
+      "description": "Translation, proofreading, and multilingual reply workflows.",
+      "version": "1.0.0",
+      "source": "./plugins/translation"
+    }
+  ]
+}
