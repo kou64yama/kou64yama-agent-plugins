@@ -74,19 +74,6 @@ For local development, add the local directory as a marketplace instead:
 gh copilot plugin marketplace add .
 ```
 
-### Cursor
-
-Cursor natively supports the [Agent Plugins](https://agent-plugins.org/)
-standard. You can install plugins directly through Cursor:
-
-- **Marketplace / CLI:**
-  ```sh
-  /plugin marketplace add kou64yama/kou64yama-agent-plugins
-  /plugin install translation@kou64yama-agent-plugins
-  ```
-- **GUI:** Open **Settings** → **Customize** (or **Plugins**) to discover and
-  enable installed plugins.
-
 ### Google Antigravity (`agy`)
 
 Antigravity automatically discovers customizations in `.agents/` or via explicit
@@ -133,7 +120,6 @@ plugins/
   <plugin-name>/
     plugin.json                      # Agent Plugins standard manifest
     .claude-plugin/plugin.json       # Claude Code manifest
-    .cursor/rules/<plugin-name>.mdc  # Cursor Rules
     skills/
       <skill-name>/
         SKILL.md
@@ -170,25 +156,32 @@ client before testing discovery and behavior.
 ## Consuming this repository as an APM dependency
 
 External projects can depend on individual plugins from this repository using
-[APM](https://github.com/microsoft/apm). Add the following to your project's
-`apm.yml`:
+[APM](https://github.com/microsoft/apm). Each plugin lives in its own directory,
+so reference the repository and select the plugin with `path`:
 
 ```yaml
 dependencies:
   apm:
-    - source: github:kou64yama/kou64yama-agent-plugins
-      packages:
-        - translation
-        - conventional-commits
-        # add more plugin names as needed
+    - git: github.com/kou64yama/kou64yama-agent-plugins
+      path: plugins/translation
+    - git: github.com/kou64yama/kou64yama-agent-plugins
+      path: plugins/conventional-commits
+      # add more plugin paths as needed
 ```
 
 Then run `apm install` to fetch the declared plugins into your project.
 
-You can also install a specific plugin directly from the command line:
+You can also install a plugin directly from the command line:
 
 ```sh
-apm install github:kou64yama/kou64yama-agent-plugins#translation
+apm install kou64yama/kou64yama-agent-plugins/plugins/translation
+```
+
+Alternatively, register the repository marketplace and install by plugin name:
+
+```sh
+apm marketplace add kou64yama/kou64yama-agent-plugins
+apm install translation@kou64yama-agent-plugins
 ```
 
 ### Release tags
@@ -199,9 +192,15 @@ for reproducible installs:
 ```yaml
 dependencies:
   apm:
-    - source: github:kou64yama/kou64yama-agent-plugins@v1.0.0
-      packages:
-        - translation
+    - git: github.com/kou64yama/kou64yama-agent-plugins
+      path: plugins/translation
+      ref: v1.0.0
+```
+
+For a marketplace install, pin the marketplace registration to the tag:
+
+```sh
+apm marketplace add kou64yama/kou64yama-agent-plugins#v1.0.0
 ```
 
 ## License
