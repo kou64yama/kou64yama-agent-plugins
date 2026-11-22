@@ -125,13 +125,15 @@ Single Source of Truth (`apm.yml`) for managing plugin metadata and generating
 cross-platform marketplaces.
 
 ```text
-apm.yml                            # Single Source of Truth for plugins & marketplaces
-.agents/plugins/marketplace.json   # Generated: Codex marketplace manifest
-.claude-plugin/marketplace.json    # Generated: Claude Code marketplace manifest
+apm.yml                              # Single Source of Truth for plugins & marketplaces
+.agents/plugins/marketplace.json     # Generated: Codex marketplace manifest
+.claude-plugin/marketplace.json      # Generated: Claude Code marketplace manifest
+.github/plugin/marketplace.json      # Generated: GitHub Copilot marketplace manifest
 plugins/
   <plugin-name>/
-    plugin.json                    # Agent Plugins standard manifest
-    .claude-plugin/plugin.json     # Claude Code manifest
+    plugin.json                      # Agent Plugins standard manifest
+    .claude-plugin/plugin.json       # Claude Code manifest
+    .cursor/rules/<plugin-name>.mdc  # Cursor Rules
     skills/
       <skill-name>/
         SKILL.md
@@ -164,6 +166,43 @@ that use relative links together.
 When changing a skill, check its trigger, workflow, metadata, and relative
 links. After changing a plugin, refresh its installed copy and restart the
 client before testing discovery and behavior.
+
+## Consuming this repository as an APM dependency
+
+External projects can depend on individual plugins from this repository using
+[APM](https://github.com/microsoft/apm). Add the following to your project's
+`apm.yml`:
+
+```yaml
+dependencies:
+  apm:
+    - source: github:kou64yama/kou64yama-agent-plugins
+      packages:
+        - translation
+        - conventional-commits
+        # add more plugin names as needed
+```
+
+Then run `apm install` to fetch the declared plugins into your project.
+
+You can also install a specific plugin directly from the command line:
+
+```sh
+apm install github:kou64yama/kou64yama-agent-plugins#translation
+```
+
+### Release tags
+
+Releases follow the `v{version}` tag convention (e.g. `v1.0.0`). Pin to a tag
+for reproducible installs:
+
+```yaml
+dependencies:
+  apm:
+    - source: github:kou64yama/kou64yama-agent-plugins@v1.0.0
+      packages:
+        - translation
+```
 
 ## License
 
